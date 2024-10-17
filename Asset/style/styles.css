@@ -1,0 +1,463 @@
+body{
+    background-color:#EFF4FD;
+
+}
+/*navbar*/
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    background-color: #fff;
+    
+}
+.navbar-brand{
+    font-family: 'Bakbak One', cursive;
+    font-size: 33px;
+    padding-right:300px;
+    
+
+}
+.navbar-nav{
+    font-family: 'Bakbak One', cursive;
+    font-size: 20px;
+    padding-top:10px;
+    margin-left: 350px;
+
+
+}
+/* .navbar-nav span{
+    color:#F69C00;
+
+} */
+/* .nav-link:hover{
+    color:#F69C00;
+} */
+.nav-link.active {
+    color: #F69C00 !important; /* Customize active link color */
+    font-weight: bold;
+}
+/*end*/
+/*hero section*/
+#hero{
+    height: 98vh;
+    margin-top: 5%;
+}
+.row h1{
+    color:#F69C00;
+    padding-top:100px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size:30px;
+
+
+}
+.row h2{
+    color:black;
+    font-weight:700;
+    font-size:28px;
+}
+
+/*text*/
+/* test animation */
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+      font-weight: 500;
+      font-family: 'Bakbak One', cursive;
+      font-size: 25px;
+  }
+  .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  
+  }
+  .console-container{
+    padding-bottom: 35%;
+  }
+  /* btn */
+.btn-custom{
+    background-color:#F69C00;
+    color:#fff;
+    text-align:center;
+    min-width:160px;
+    height:40px;
+    font-weight: 700;
+    border-radius: 8px;
+
+}
+.btn-custom span{
+    color:#Fff;
+}
+.btn-custom:hover{
+    box-shadow: 0 0 5px rgba(255,255, 255, alpha)
+
+
+}
+/*medsos*/
+.medsos-icon{
+   float:left;
+   text-decoration: none;
+}
+.medsos-icon i{
+    text-decoration: none;
+    color:#373737de; 
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 20px;
+    text-underline-offset: 0;
+  
+}
+.medsos-icon i:hover{
+    color:#F69C00; 
+}
+a{
+    text-decoration: none;
+}
+/* cv */
+.cv {
+    color:black;
+    font-weight: 700;
+    cursor:pointer;
+    padding-left:0.3rem;
+}
+.cv:hover{
+    color:#F69C00;
+}
+/*foto*/
+#hero img{
+    float:right;
+}
+/*end hero*/
+
+/* about me */
+#about{
+
+    background-color: #EAF0FC;
+    min-height:350px;
+}
+#about h1{
+    float:center;
+    color:#F69C00;
+    font-size:30px;
+    font-weight: 400;
+    font-family: 'Bakbak One', cursive;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    /* justify-content: center;
+    align-items: center; */
+}
+#about h2{
+    font-size:20px;
+    font-weight: 700;
+    padding-top:30px;
+
+}
+#about p{
+    font-size:18px;
+    padding-top:10px;
+    text-align: justify;
+}
+#about p span{
+    color:#F69C00;
+    font-weight: 700;
+}
+.more{
+    color:#000;
+    
+}
+.more:hover{
+    color:#F69C00;
+}
+
+/* Project */
+#project h1{
+    float:center;
+    color:#F69C00;
+    font-size:30px;
+    font-weight: 400;
+    font-family: 'Bakbak One', cursive;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    /* justify-content: center;
+    align-items: center; */
+}
+.custom-card img{
+    width: 100%;
+    height: auto;
+}
+.custom-card h5{
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Bakbak One', cursive;
+    text-align: center;
+}
+/* Styling for the card */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .card:hover {
+    transform: scale(1.05); /* Card akan sedikit membesar */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Efek bayangan untuk membuatnya menonjol */
+  }
+  
+
+  /* modal */
+  .modal-dialog {
+    min-width: auto;
+    min-height: auto;
+
+}
+.modal-title{
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Bakbak One', cursive;
+}
+.modal-body p{
+    font-size:15px;
+    font-weight:normal;
+    text-align: justify;
+    
+}
+.modal-body a{
+    text-decoration: none;
+    color: #F69C00; 
+    padding: 2px;
+    font-weight: bold;
+
+}
+.modal-body span{
+margin-top: 20px;
+ border: 2px solid;
+ border-radius: 10px;
+ padding: 7px;
+ color: #EAF0FC;
+ background-color: #EAF0FC;
+ float: right;
+ 
+}
+.modal-body img{
+    width: 100%;
+    height: auto;
+}
+
+/* contact */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    font-size: 0.9rem;
+    margin-top: 10%;
+}
+
+.footer h5 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+}
+
+.footer p, .footer ul {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer .social-icons li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer .social-icons li a {
+    font-size: 1.2rem;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+/* responsive hp */
+    /*navbar */
+    @media (max-width: 768px) {
+        .navbar-brand {
+            margin-left: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .navbar-nav {
+            text-align: left;
+            padding: 2px;
+            margin:0;
+            font-size: 18px;
+        }
+        .navbar-nav span{
+            text-align: left;
+        }
+
+        .nav-item {
+            margin-bottom: 10px;
+        }
+
+        .navbar-collapse {
+            justify-content: center;
+        }
+        .navbar-brand{
+            font-size: 25px;
+        }
+        .navbar-toggler-icon{
+            font-size: 20px;
+            width: 20px;
+            height: 20px;
+            margin: 0;
+            padding: 0;
+
+        }
+    }
+    /* hero */
+    @media (max-width: 768px) {
+        #hero .row {
+            flex-direction: column-reverse; /* Mengubah urutan elemen */
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .row img{
+            display: block; /* Agar gambar menjadi elemen blok */
+        }
+        #hero {
+            text-align: center;
+            justify-content: center;
+        }
+        .col-5 img {
+            width: 40vh; /* Mengatur ukuran lebar gambar */
+            height: auto; /* Membiarkan tinggi gambar sesuai proporsi */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0; /* Menghapus padding agar gambar benar-benar di tengah */
+            align-items: center;
+            margin-right: -50px;
+        }
+
+        .col-6, .col-5 {
+            text-align: center;
+            margin: auto;
+        }
+
+        .medsos-icon {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .medsos-icon a {
+            margin-right: 10px;
+        }
+        .console-container {
+            font-weight: 500;
+            font-family: 'Bakbak One', cursive;
+            font-size: 10px;
+        }
+        .row h1{
+            width: 80vh;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            float: left;
+            justify-content: left;
+            align-items: start;
+            margin-left: -70px;
+        }
+        .row h2{        
+            width: 80vh;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            float: left;
+            margin-left: -70px;
+        }
+        .btn-custom{
+            min-width:70px;
+            height:30px;
+            font-size: 10px;
+        }
+       
+        /*medsos*/
+        .medsos-icon i{
+            padding: 0;
+            font-size: 12px;
+          
+        }
+        .medsos-icon i:hover{
+            color:#F69C00; 
+        }
+        a{
+            font-size: 12px;
+        }
+        /* aboutme */
+        #about{
+            margin: 0;
+            padding: 0;     
+        }
+        #about h1{
+            font-size: 28px;
+            width: 100%;
+        }
+        #about h2 {
+            font-size: 18px;
+            width: 100%;
+            margin-left: 5%;
+            align-items: center;
+        }
+        /* project */
+        #project h1{
+            font-size: 28px;
+            width: 100%;
+        }
+        .custom-card{
+            padding-bottom: 10px;
+        }
+        .card-title{
+            font-size: 15px;
+        }
+    /* modal */
+        .modal-dialog {
+            min-width: auto;
+            min-height: auto;
+            bottom: 0;
+        
+        }
+        .modal-title{
+            font-size:12px;
+        }
+    }

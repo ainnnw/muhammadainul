@@ -8,7 +8,8 @@ body{
     position: fixed;
     z-index: 10;
     top:0;
-    width: auto;
+    width: 100vw;
+    background-color: #fafafa;
 }
 .navbar-brand{
     font-family: 'Bakbak One', cursive;
@@ -256,7 +257,21 @@ margin-top: 20px;
     width: 100%;
     height: auto;
 }
-
+/* sertif */
+#sertifikat{
+    background-color:#EAF0FC;
+}
+#sertifikat h1{
+    float:center;
+    color:#F69C00;
+    font-size:30px;
+    font-weight: 400;
+    font-family: 'Bakbak One', cursive;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 /* contact */
 
 .footer {
@@ -324,13 +339,10 @@ margin-top: 20px;
             margin: 0;
             padding-right: 2rem;
         }
-
-
         .navbar-nav {
-            text-align: left;
-            padding: 2px;
+            text-align: justify;
+            padding: 0;
             margin:0;
-            font-size: 18px;
 
         }
         .navbar-nav span{
@@ -338,9 +350,10 @@ margin-top: 20px;
         }
 
         .nav-item {
-            margin-bottom: 10px;
-        }
+            padding: 2px;
+            font-size: 15px;
 
+        }
         .navbar-collapse {
             justify-content: center;
         }
@@ -368,16 +381,14 @@ margin-top: 20px;
             display: block; /* Agar gambar menjadi elemen blok */
         }
         #hero{
-            height:0px;
-            height: auto;
+            height:100vh;
             text-align: center;
             justify-content: center;
             padding-top: 50px;
-            padding-bottom: 20vh;
           
         }
         .col-5 img {
-            width: 200px; /* Mengatur ukuran lebar gambar */
+            width: 60vw; /* Mengatur ukuran lebar gambar */
             height: auto; /* Membiarkan tinggi gambar sesuai proporsi */
             display: block;
             margin-left: auto;
@@ -393,7 +404,6 @@ margin-top: 20px;
 
         .medsos-icon {
             text-align: center;
-            bottom: unset;
         }
 
         .medsos-icon a {
@@ -402,11 +412,11 @@ margin-top: 20px;
         .console-container {
             font-weight: 500;
             font-family: 'Bakbak One', cursive;
-            font-size: 10px;
+            font-size: 15px;
         }
         .row h1{
             width: 80vh;
-            font-size: 20px;
+            font-size: 25px;
             padding: 0;
             margin: 0;
             text-align: left;
@@ -425,9 +435,9 @@ margin-top: 20px;
             margin-left: -70px;
         }
         .btn-custom{
-            min-width:70px;
-            height:30px;
-            font-size: 10px;
+            min-width:90px;
+            height:40px;
+            font-size: 13px;
         }
        
         /*medsos*/
@@ -463,7 +473,7 @@ margin-top: 20px;
             width: 100%;
         }
         .custom-card{
-            padding-bottom: 10px;
+            margin-bottom: 1.5rem;
         }
         .card-title{
             font-size: 15px;

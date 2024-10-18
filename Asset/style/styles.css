@@ -1,19 +1,21 @@
 body{
     background-color:#EFF4FD;
+    width: 100%;
 
 }
 /*navbar*/
 .navbar{
     position: fixed;
-    z-index: 1000;
+    z-index: 10;
     top:0;
-    background-color: #fff;
-    
+    width: auto;
 }
 .navbar-brand{
     font-family: 'Bakbak One', cursive;
     font-size: 33px;
     padding-right:300px;
+    width: auto;
+    
     
 
 }
@@ -22,6 +24,7 @@ body{
     font-size: 20px;
     padding-top:10px;
     margin-left: 350px;
+    width: auto;
 
 
 }
@@ -39,8 +42,11 @@ body{
 /*end*/
 /*hero section*/
 #hero{
-    height: 98vh;
+    height: 100vh;
+    width: 100vw;
     margin-top: 5%;
+    padding-bottom: 3%;
+    overflow: hidden;
 }
 .row h1{
     color:#F69C00;
@@ -48,7 +54,6 @@ body{
     font-family: 'Lobster', cursive;
     font-weight: 400;
     font-size:30px;
-
 
 }
 .row h2{
@@ -100,6 +105,7 @@ body{
 .medsos-icon{
    float:left;
    text-decoration: none;
+   bottom: 0;
 }
 .medsos-icon i{
     text-decoration: none;
@@ -214,6 +220,8 @@ a{
   .modal-dialog {
     min-width: auto;
     min-height: auto;
+    /* z-index: 20;
+    position: absolute; */
 
 }
 .modal-title{
@@ -306,10 +314,15 @@ margin-top: 20px;
 /* responsive hp */
     /*navbar */
     @media (max-width: 768px) {
+        .navbar{
+            z-index: 10;
+            position:fixed;
+        }
         .navbar-brand {
             margin-left: 0;
             padding: 0;
             margin: 0;
+            padding-right: 2rem;
         }
 
 
@@ -318,6 +331,7 @@ margin-top: 20px;
             padding: 2px;
             margin:0;
             font-size: 18px;
+
         }
         .navbar-nav span{
             text-align: left;
@@ -353,19 +367,23 @@ margin-top: 20px;
         .row img{
             display: block; /* Agar gambar menjadi elemen blok */
         }
-        #hero {
+        #hero{
+            height:0px;
+            height: auto;
             text-align: center;
             justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 20vh;
+          
         }
         .col-5 img {
-            width: 40vh; /* Mengatur ukuran lebar gambar */
+            width: 200px; /* Mengatur ukuran lebar gambar */
             height: auto; /* Membiarkan tinggi gambar sesuai proporsi */
             display: block;
             margin-left: auto;
             margin-right: auto;
             padding: 0; /* Menghapus padding agar gambar benar-benar di tengah */
             align-items: center;
-            margin-right: -50px;
         }
 
         .col-6, .col-5 {
@@ -374,8 +392,8 @@ margin-top: 20px;
         }
 
         .medsos-icon {
-            margin-top: 20px;
             text-align: center;
+            bottom: unset;
         }
 
         .medsos-icon a {
@@ -422,7 +440,7 @@ margin-top: 20px;
             color:#F69C00; 
         }
         a{
-            font-size: 12px;
+            font-size: 10px;
         }
         /* aboutme */
         #about{
@@ -452,9 +470,10 @@ margin-top: 20px;
         }
     /* modal */
         .modal-dialog {
-            min-width: auto;
-            min-height: auto;
-            bottom: 0;
+            min-width: 370px;
+            max-width: 768;
+            width: auto;
+            height: 100%;
         
         }
         .modal-title{
